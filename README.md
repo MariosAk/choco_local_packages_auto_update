@@ -4,3 +4,4 @@ These scripts are used with a [chocolatey local server](https://docs.chocolatey.
 Below are the supported apps.  
 * Firefox
 * Thunderbird
+* Chrome
