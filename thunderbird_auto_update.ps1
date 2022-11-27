@@ -3,7 +3,7 @@ $temp = choco list thunderbird --all | Select-String -Pattern 'thunderbird *'
 
 if($temp.Count -gt 1)
 {
-	$index = $repoVersion.Count-1
+	$index = $temp.Count-1
 	$temp = $temp[$index]
 }
 
